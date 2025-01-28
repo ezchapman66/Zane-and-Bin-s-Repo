@@ -1,3 +1,4 @@
-print("Hello world")
+import yfinance as yf
 
-print(8/4)
+stocks = yf.ticker("MSFT")
+stocks.calander
